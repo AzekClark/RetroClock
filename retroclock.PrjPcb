@@ -55,25 +55,93 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HLEETJIX
 
+[Document2]
+DocumentPath=Schematics\Nixies-segment-control.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=UJLUVCGF
+
+[Document3]
+DocumentPath=Schematics\Nixies-digits-control.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=RFHUZYNF
+
+[Document4]
+DocumentPath=Schematics\Nixies-1-2.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=LPCXOGPS
+
+[Document5]
+DocumentPath=Schematics\Nixies-3-4.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=MLMUMQDE
+
 [Parameter1]
-Name=ProjectTitle
-Value=Nixie's retro clock schematics
+Name=ProjectAuthor
+Value=Clark A.
 
 [Parameter2]
-Name=ProjectRevision
-Value=001
+Name=ProjectCompanyName
+Value=Azek Clark © 2020
 
 [Parameter3]
 Name=ProjectNumber
 Value=RetroClock-SM
 
 [Parameter4]
-Name=ProjectCompanyName
-Value=Azek Clark © 2020
+Name=ProjectRevision
+Value=001
 
 [Parameter5]
-Name=ProjectAuthor
-Value=Clark A.
+Name=ProjectTitle
+Value=Nixie's retro clock schematics
 
 [Configuration1]
 Name=Sources
