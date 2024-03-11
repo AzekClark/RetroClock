@@ -1,0 +1,401 @@
+[OutputJobFile]
+Version=1.0
+Caption=
+Description=
+VaultGUID=
+ItemGUID=
+ItemHRID=
+RevisionGUID=
+RevisionId=
+VaultHRID=
+AutoItemHRID=
+NextRevId=
+FolderGUID=
+LifeCycleDefinitionGUID=
+RevisionNamingSchemeGUID=
+
+[OutputGroup1]
+Name=Debug.OutJob
+Description=
+TargetOutputMedium=BOM
+VariantName=Debug
+VariantScope=1
+CurrentConfigurationName=
+TargetPrinter=Kyocera ECOSYS M2040dn (Разработка)
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputMedium1=Print Job
+OutputMedium1_Type=Printer
+OutputMedium1_Printer=
+OutputMedium1_PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+OutputMedium2=schematic-variant
+OutputMedium2_Type=Publish
+OutputMedium3=drawing-assembly
+OutputMedium3_Type=Publish
+OutputMedium4=gerber
+OutputMedium4_Type=GeneratedFiles
+OutputMedium5=BOM
+OutputMedium5_Type=GeneratedFiles
+OutputMedium6=3D pcb
+OutputMedium6_Type=GeneratedFiles
+OutputMedium7=schematic-pages
+OutputMedium7_Type=Publish
+OutputMedium8=3D pcb pdf
+OutputMedium8_Type=Publish
+OutputType1=Schematic Print
+OutputName1=Variant
+OutputCategory1=Documentation
+OutputDocumentPath1=[Project Physical Documents]
+OutputVariantName1=
+OutputEnabled1=0
+OutputEnabled1_OutputMedium1=0
+OutputEnabled1_OutputMedium2=1
+OutputEnabled1_OutputMedium3=0
+OutputEnabled1_OutputMedium4=0
+OutputEnabled1_OutputMedium5=0
+OutputEnabled1_OutputMedium6=0
+OutputEnabled1_OutputMedium7=0
+OutputEnabled1_OutputMedium8=0
+OutputDefault1=0
+PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration1_Name1=OutputConfigurationParameter1
+Configuration1_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ShowOpenEnds=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0|DocumentPath=[Project Physical Documents]
+OutputType2=PCBDrawing
+OutputName2=Draftsman
+OutputCategory2=Documentation
+OutputDocumentPath2=drawing-assembly.PCBDwf
+OutputVariantName2=
+OutputEnabled2=0
+OutputEnabled2_OutputMedium1=0
+OutputEnabled2_OutputMedium2=0
+OutputEnabled2_OutputMedium3=1
+OutputEnabled2_OutputMedium4=0
+OutputEnabled2_OutputMedium5=0
+OutputEnabled2_OutputMedium6=0
+OutputEnabled2_OutputMedium7=0
+OutputEnabled2_OutputMedium8=0
+OutputDefault2=0
+PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType3=Gerber
+OutputName3=Gerber Files
+OutputCategory3=Fabrication
+OutputDocumentPath3=PCB-Panel.PcbDoc
+OutputVariantName3=
+OutputEnabled3=0
+OutputEnabled3_OutputMedium1=0
+OutputEnabled3_OutputMedium2=0
+OutputEnabled3_OutputMedium3=0
+OutputEnabled3_OutputMedium4=2
+OutputEnabled3_OutputMedium5=0
+OutputEnabled3_OutputMedium6=0
+OutputEnabled3_OutputMedium7=0
+OutputEnabled3_OutputMedium8=0
+OutputDefault3=0
+Configuration3_Name1=OutputConfigurationParameter1
+Configuration3_Item1=AddToAllLayerClasses.Set= |AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|BoardID=HKMWPVOP|CentrePlots=False|DrillDrawingSymbol=GraphicsSymbol|DrillDrawingSymbolSize=500000|EmbeddedApertures=True|FilmBorderSize=10000000|FilmXSize=200000000|FilmYSize=160000000|FlashAllFills=False|FlashPadShapes=True|G54OnApertureChange=False|GenerateDRCRulesFile=False|GenerateDRCRulesFile=False|GenerateReliefShapes=True|GenerateReports=False|GerberUnit=Metric|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=True|LayerClassesMirror.Set= |LayerClassesPlot.Set= |LeadingAndTrailingZeroesMode=SuppressLeadingZeroes|MaxApertureSize=2500000|MergePadAndRegion=True|MinusApertureTolerance=50|MinusApertureTolerance=50|Mirror.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray|MirrorDrillDrawingPlots=False|MirrorDrillGuidePlots=False|NoRegularPolygons=False|NumberOfDecimals=4|NumberOfDecimals=4|OptimizeChangeLocationCommands=True|OptimizeChangeLocationCommands=True|OriginPosition=Relative|OutputFormat=Different|Panelize=False|Plot.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16777217~1,16777218~1,16777219~1,16842751~1,16973830~1,16973831~1,16973834~1,16973835~1,16973832~1,16973833~1,16908294~1|PlotBoardProfile=True|PlotBoardProfileFileName= |PlotPositivePlaneLayers=False|PlotUsedDrillDrawingLayerPairs=False|PlotUsedDrillGuideLayerPairs=False|PlusApertureTolerance=50|PlusApertureTolerance=50|Record=GerberView|SoftwareArcs=False|Sorted=False|Sorted=False|UncheckPlotDrillDrawingLayerPair0_Backdrill=False|UncheckPlotDrillDrawingLayerPair0_Checked=False|UncheckPlotDrillDrawingLayerPair0_DrillType=Regular|UncheckPlotDrillDrawingLayerPair0_FileName= |UncheckPlotDrillDrawingLayerPair0_HighLayer=Bottom Layer|UncheckPlotDrillDrawingLayerPair0_LowLayer=Top Layer|UncheckPlotDrillGuideLayerPair0_Backdrill=False|UncheckPlotDrillGuideLayerPair0_Checked=False|UncheckPlotDrillGuideLayerPair0_DrillType=Regular|UncheckPlotDrillGuideLayerPair0_FileName= |UncheckPlotDrillGuideLayerPair0_HighLayer=Bottom Layer|UncheckPlotDrillGuideLayerPair0_LowLayer=Top Layer|DocumentPath=C:\Users\ATBUser\OneDrive\Work\ATB-MUVV\Documents\PCB-Panel.PcbDoc
+OutputType4=NC Drill
+OutputName4=NC Drill Files
+OutputCategory4=Fabrication
+OutputDocumentPath4=PCB-Panel.PcbDoc
+OutputVariantName4=
+OutputEnabled4=0
+OutputEnabled4_OutputMedium1=0
+OutputEnabled4_OutputMedium2=0
+OutputEnabled4_OutputMedium3=0
+OutputEnabled4_OutputMedium4=1
+OutputEnabled4_OutputMedium5=0
+OutputEnabled4_OutputMedium6=0
+OutputEnabled4_OutputMedium7=0
+OutputEnabled4_OutputMedium8=0
+OutputDefault4=0
+Configuration4_Name1=OutputConfigurationParameter1
+Configuration4_Item1=BoardEdgeRoutToolDia=2000000|GenerateBoardEdgeRout=False|GenerateDrilledSlotsG85=False|GenerateEIADrillFile=False|GenerateSeparatePlatedNonPlatedFiles=False|GenerateSeparateViaTypeFiles=False|GenerateToolsByDrillSymbols=False|NumberOfDecimals=4|NumberOfUnits=4|OptimizeChangeLocationCommands=True|OriginPosition=Relative|Record=DrillView|Units=Metric|ZeroesMode=SuppressTrailingZeroes|DocumentPath=C:\Users\ATBUser\OneDrive\Work\ATB-MUVV\Documents\PCB-Panel.PcbDoc
+OutputType5=BOM_PartType
+OutputName5=Bill of Materials
+OutputCategory5=Report
+OutputDocumentPath5=BOM.BomDoc
+OutputVariantName5=
+OutputEnabled5=1
+OutputEnabled5_OutputMedium1=0
+OutputEnabled5_OutputMedium2=0
+OutputEnabled5_OutputMedium3=0
+OutputEnabled5_OutputMedium4=0
+OutputEnabled5_OutputMedium5=1
+OutputEnabled5_OutputMedium6=0
+OutputEnabled5_OutputMedium7=0
+OutputEnabled5_OutputMedium8=0
+OutputDefault5=0
+PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration5_Name1=ColumnNameFormat
+Configuration5_Item1=CaptionAsName
+Configuration5_Name2=General
+Configuration5_Item2=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1200|FormHeight=710|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|UseDirectApi=False|BomSetName=
+Configuration5_Name3=GroupOrder
+Configuration5_Item3=
+Configuration5_Name4=VisibleOrder
+Configuration5_Item4=Manufacturer=180|NameFromManufacturer=171|Part Number=100|Description=237|Designator=446|Quantity=56|Analog=203
+Configuration5_Name5=VisibleOrder_Base
+Configuration5_Item5=Manufacturer=180|NameFromManufacturer=171|Part Number=100|Description=237|Designator=446|Quantity=56|Analog=203
+Configuration5_Name6=VisibleOrder_Consolidated
+Configuration5_Item6=Line #=100|Comment=100|Description=100|Designator=100|Quantity=100|Manufacturer 1=102|Manufacturer Part Number 1=169|Manufacturer Lifecycle 1=147|Supplier 1=75|Supplier Part Number 1=142|Supplier Unit Price 1=127|Supplier Subtotal 1=122|Quantity@Debug=100|Price@Debug=100
+Configuration5_Name7=VisibleOrder_Flat
+Configuration5_Item7=Line #=100|Comment=100|Description=100|Designator=100|Manufacturer 1=102|Manufacturer Part Number 1=169|Manufacturer Lifecycle 1=147|Supplier 1=75|Supplier Part Number 1=142|Supplier Unit Price 1=127|Supplier Subtotal 1=122
+OutputType6=ExportPARASOLID
+OutputName6=Export PARASOLID
+OutputCategory6=Export
+OutputDocumentPath6=PCBMAIN.PcbDoc
+OutputVariantName6=
+OutputEnabled6=0
+OutputEnabled6_OutputMedium1=0
+OutputEnabled6_OutputMedium2=0
+OutputEnabled6_OutputMedium3=0
+OutputEnabled6_OutputMedium4=0
+OutputEnabled6_OutputMedium5=0
+OutputEnabled6_OutputMedium6=1
+OutputEnabled6_OutputMedium7=0
+OutputEnabled6_OutputMedium8=0
+OutputDefault6=0
+Configuration6_Name1=OutputConfigurationParameter1
+Configuration6_Item1=Record=ExportSTEPView|ExportComponentOptions=0|ExportModelsOption=2|ExportHolesOption=0|CanSelectPrimitives=False|IncludeMechanicalPadHoles=True|IncludeElectricalPadHoles=True|IncludeFreePadHoles=True|ExportFoldedBoard=True|ExportFoldedBoardRate=0|ComponentSuffixType=1|ComponentSuffix= |ExportCopperOption=0|ExportCopperLayer=1|ExportPadAndViaBarrelsOnly=False|IgnoreBoardCopperLayerColors=False|ExportAsSinglePart=False|IncludeCoverLayer=True|SkipFreeBodies=False|SkipHidden=False|DocumentPath=C:\Users\ATBUser\OneDrive\Work\ATB-MUVV\PCBMAIN.PcbDoc
+OutputType7=ExportSTEP
+OutputName7=Export STEP
+OutputCategory7=Export
+OutputDocumentPath7=PCBMAIN.PcbDoc
+OutputVariantName7=
+OutputEnabled7=0
+OutputEnabled7_OutputMedium1=0
+OutputEnabled7_OutputMedium2=0
+OutputEnabled7_OutputMedium3=0
+OutputEnabled7_OutputMedium4=0
+OutputEnabled7_OutputMedium5=0
+OutputEnabled7_OutputMedium6=2
+OutputEnabled7_OutputMedium7=0
+OutputEnabled7_OutputMedium8=0
+OutputDefault7=0
+Configuration7_Name1=OutputConfigurationParameter1
+Configuration7_Item1=Record=ExportSTEPView|ExportComponentOptions=0|ExportModelsOption=2|ExportHolesOption=0|CanSelectPrimitives=False|IncludeMechanicalPadHoles=True|IncludeElectricalPadHoles=True|IncludeFreePadHoles=True|ExportFoldedBoard=True|ExportFoldedBoardRate=0|ComponentSuffixType=1|ComponentSuffix= |ExportCopperOption=0|ExportCopperLayer=0|ExportPadAndViaBarrelsOnly=False|IgnoreBoardCopperLayerColors=False|ExportAsSinglePart=True|IncludeCoverLayer=True|SkipFreeBodies=False|SkipHidden=False|DocumentPath=C:\Users\ATBUser\OneDrive\Work\ATB-MUVV\PCBMAIN.PcbDoc
+OutputType8=Schematic Print
+OutputName8=SCH lists
+OutputCategory8=Documentation
+OutputDocumentPath8=
+OutputVariantName8=
+OutputEnabled8=0
+OutputEnabled8_OutputMedium1=0
+OutputEnabled8_OutputMedium2=0
+OutputEnabled8_OutputMedium3=0
+OutputEnabled8_OutputMedium4=0
+OutputEnabled8_OutputMedium5=0
+OutputEnabled8_OutputMedium6=0
+OutputEnabled8_OutputMedium7=1
+OutputEnabled8_OutputMedium8=0
+OutputDefault8=0
+PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration8_Name1=OutputConfigurationParameter1
+Configuration8_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ShowOpenEnds=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0|DocumentPath=All SCH Documents
+OutputType9=PDF3D
+OutputName9=PDF3D
+OutputCategory9=Documentation
+OutputDocumentPath9=PCBMAIN.PcbDoc
+OutputVariantName9=
+OutputEnabled9=0
+OutputEnabled9_OutputMedium1=0
+OutputEnabled9_OutputMedium2=0
+OutputEnabled9_OutputMedium3=0
+OutputEnabled9_OutputMedium4=0
+OutputEnabled9_OutputMedium5=0
+OutputEnabled9_OutputMedium6=0
+OutputEnabled9_OutputMedium7=0
+OutputEnabled9_OutputMedium8=1
+OutputDefault9=0
+PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+Configuration9_Name1=OutputConfigurationParameter1
+Configuration9_Item1=Record=ExportPDF3DSetting|Version=110|Format=0|Flags=8158|Scheme=0|ViewColorR0=255|ViewColorG0=255|ViewColorB0=255|ViewLignt0=9|ViewColorR1=255|ViewColorG1=255|ViewColorB1=255|ViewLignt1=9|ViewColorR2=255|ViewColorG2=255|ViewColorB2=255|ViewLignt2=9|ViewColorR3=255|ViewColorG3=255|ViewColorB3=255|ViewLignt3=9|DocumentPath=C:\Users\ATBUser\OneDrive\Work\ATB-MUVV\PCBMAIN.PcbDoc
+
+[PublishSettings]
+OutputFilePath2=C:\Users\ATBUser\OneDrive\Work\ATB-MUVV\Documents\Outputs\ATB-MUVV-PCBMAIN-ProjectBoardVariantA1R0\
+ReleaseManaged2=1
+OutputBasePath2=Documents\Outputs
+OutputPathMedia2== ProjectBoardInterface+'-' +ProjectNumber+'-'+ProjectBoardName+'-'+ProjectBoardVariant+ProjectRevisionCode
+OutputPathMediaValue2== ProjectBoardInterface+'-' +ProjectNumber+'-'+ProjectBoardName+'-'+ProjectBoardVariant+ProjectRevisionCode
+OutputPathOutputer2=[Output Custom]
+OutputPathOutputerPrefix2=
+OutputPathOutputerValue2=Schematics
+OutputFileName2=Debug.PDF
+OutputFileNameMulti2== ProjectBoardInterface+'-' +ProjectNumber+'-'+ProjectBoardName+'-'+ProjectBoardVariant+ProjectRevisionCode+'-schematic'
+UseOutputNameForMulti2=0
+OutputFileNameSpecial2== ProjectBoardInterface+'-' +ProjectNumber+'-'+ProjectBoardName+'-'+ProjectBoardVariant+ProjectRevisionCode+'-schematic'
+OpenOutput2=0
+PromptOverwrite2=0
+PublishMethod2=1
+ZoomLevel2=50
+FitSCHPrintSizeToDoc2=1
+FitPCBPrintSizeToDoc2=1
+GenerateNetsInfo2=1
+MarkPins2=1
+MarkNetLabels2=1
+MarkPortsId2=1
+GenerateTOC2=1
+ShowComponentParameters2=1
+GlobalBookmarks2=0
+PDFACompliance2=Disabled
+PDFVersion2=Default
+OutputFilePath3=C:\Users\ATBUser\OneDrive\Work\ATB-MUVV\Documents\Outputs\ATB-MUVV-PCBMAIN-ProjectBoardVariantA1R0\ATB-MUVV-PCBMAIN-ProjectBoardVariantA1R0-drawing.PDF
+ReleaseManaged3=1
+OutputBasePath3=Documents\Outputs
+OutputPathMedia3== ProjectBoardInterface+'-' +ProjectNumber+'-'+ProjectBoardName+'-'+ProjectBoardVariant+ProjectRevisionCode
+OutputPathMediaValue3== ProjectBoardInterface+'-' +ProjectNumber+'-'+ProjectBoardName+'-'+ProjectBoardVariant+ProjectRevisionCode
+OutputPathOutputer3=[Output Type]
+OutputPathOutputerPrefix3=
+OutputPathOutputerValue3=
+OutputFileName3=Debug.PDF
+OutputFileNameMulti3=
+UseOutputNameForMulti3=0
+OutputFileNameSpecial3== ProjectBoardInterface+'-' +ProjectNumber+'-'+ProjectBoardName+'-'+ProjectBoardVariant+ProjectRevisionCode+'-drawing'
+OpenOutput3=0
+PromptOverwrite3=0
+PublishMethod3=0
+ZoomLevel3=50
+FitSCHPrintSizeToDoc3=1
+FitPCBPrintSizeToDoc3=1
+GenerateNetsInfo3=1
+MarkPins3=1
+MarkNetLabels3=1
+MarkPortsId3=1
+GenerateTOC3=1
+ShowComponentParameters3=1
+GlobalBookmarks3=0
+PDFACompliance3=Disabled
+PDFVersion3=Default
+OutputFilePath4=C:\Users\ATBUser\OneDrive\Work\ATB-MUVV\Documents\Outputs\ATB-MUVV-PCBMAIN-ProjectBoardVariantA1R0\
+ReleaseManaged4=1
+OutputBasePath4=Documents\Outputs
+OutputPathMedia4== ProjectBoardInterface+'-' +ProjectNumber+'-'+ProjectBoardName+'-'+ProjectBoardVariant+ProjectRevisionCode
+OutputPathMediaValue4== ProjectBoardInterface+'-' +ProjectNumber+'-'+ProjectBoardName+'-'+ProjectBoardVariant+ProjectRevisionCode
+OutputPathOutputer4=[Output Custom]
+OutputPathOutputerPrefix4=
+OutputPathOutputerValue4== ProjectBoardInterface+'-' +ProjectNumber+'-'+ProjectBoardName+'-'+ProjectRevisionCode
+OutputFileName4=
+OutputFileNameMulti4== ProjectBoardInterface+'-' +ProjectNumber+'-'+ProjectBoardName+'-'+ProjectRevisionCode
+UseOutputNameForMulti4=0
+OutputFileNameSpecial4=
+OpenOutput4=0
+OutputFilePath5=C:\Users\ATBUser\OneDrive\Projects\RetroClock\RetroClock-PCBMAIN\Documents\Outputs\PRJ-RETROCLOCK-PCBMAIN-ProjectBoardVariantB1S1\
+ReleaseManaged5=1
+OutputBasePath5=Documents\Outputs
+OutputPathMedia5== ProjectBoardInterface+'-' +ProjectNumber+'-'+ProjectBoardName+'-'+ProjectBoardVariant+ProjectRevisionCode
+OutputPathMediaValue5== ProjectBoardInterface+'-' +ProjectNumber+'-'+ProjectBoardName+'-'+ProjectBoardVariant+ProjectRevisionCode
+OutputPathOutputer5=
+OutputPathOutputerPrefix5=
+OutputPathOutputerValue5=
+OutputFileName5=
+OutputFileNameMulti5== ProjectBoardInterface+'-' +ProjectNumber+'-'+ProjectBoardName+'-'+ProjectBoardVariant+ProjectRevisionCode+'-BOM'
+UseOutputNameForMulti5=0
+OutputFileNameSpecial5=
+OpenOutput5=0
+OutputFilePath6=C:\Users\ATBUser\OneDrive\Work\ATB-MUVV\Documents\Outputs\ATB-MUVV-PCBMAIN-ProjectBoardVariantA1R0\
+ReleaseManaged6=1
+OutputBasePath6=Documents\Outputs
+OutputPathMedia6== ProjectBoardInterface+'-' +ProjectNumber+'-'+ProjectBoardName+'-'+ProjectBoardVariant+ProjectRevisionCode
+OutputPathMediaValue6== ProjectBoardInterface+'-' +ProjectNumber+'-'+ProjectBoardName+'-'+ProjectBoardVariant+ProjectRevisionCode
+OutputPathOutputer6=[Output Custom]
+OutputPathOutputerPrefix6=
+OutputPathOutputerValue6=3D model
+OutputFileName6=
+OutputFileNameMulti6== ProjectBoardInterface+'-' +ProjectNumber+'-'+ProjectBoardName+'-'+ProjectBoardVariant+ProjectRevisionCode
+UseOutputNameForMulti6=0
+OutputFileNameSpecial6=
+OpenOutput6=0
+OutputFilePath7=C:\Users\ATBUser\OneDrive\Work\ATB-MUVV\Documents\Outputs\ATB-MUVV-PCBMAIN-ProjectBoardVariantA1R0\
+ReleaseManaged7=1
+OutputBasePath7=Documents\Outputs
+OutputPathMedia7== ProjectBoardInterface+'-' +ProjectNumber+'-'+ProjectBoardName+'-'+ProjectBoardVariant+ProjectRevisionCode
+OutputPathMediaValue7== ProjectBoardInterface+'-' +ProjectNumber+'-'+ProjectBoardName+'-'+ProjectBoardVariant+ProjectRevisionCode
+OutputPathOutputer7=[Output Custom]
+OutputPathOutputerPrefix7=
+OutputPathOutputerValue7=Schematics
+OutputFileName7=Debug.PDF
+OutputFileNameMulti7== ProjectBoardInterface+'-' +ProjectNumber+'-'+ProjectBoardName+'-'+ProjectRevisionCode+'-schematic'
+UseOutputNameForMulti7=0
+OutputFileNameSpecial7=
+OpenOutput7=0
+PromptOverwrite7=0
+PublishMethod7=1
+ZoomLevel7=50
+FitSCHPrintSizeToDoc7=1
+FitPCBPrintSizeToDoc7=1
+GenerateNetsInfo7=1
+MarkPins7=1
+MarkNetLabels7=1
+MarkPortsId7=1
+GenerateTOC7=1
+ShowComponentParameters7=1
+GlobalBookmarks7=0
+PDFACompliance7=Disabled
+PDFVersion7=Default
+OutputFilePath8=C:\Users\ATBUser\OneDrive\Work\ATB-MUVV\Documents\Outputs\ATB-MUVV-PCBMAIN-ProjectBoardVariantA1R0\Debug.PDF
+ReleaseManaged8=1
+OutputBasePath8=Documents\Outputs
+OutputPathMedia8== ProjectBoardInterface+'-' +ProjectNumber+'-'+ProjectBoardName+'-'+ProjectBoardVariant+ProjectRevisionCode
+OutputPathMediaValue8== ProjectBoardInterface+'-' +ProjectNumber+'-'+ProjectBoardName+'-'+ProjectBoardVariant+ProjectRevisionCode
+OutputPathOutputer8=[Output Custom]
+OutputPathOutputerPrefix8=
+OutputPathOutputerValue8=3D model
+OutputFileName8=Debug.PDF
+OutputFileNameMulti8== ProjectBoardInterface+'-' +ProjectNumber+'-'+ProjectBoardName+'-'+ProjectBoardVariant+ProjectRevisionCode
+UseOutputNameForMulti8=0
+OutputFileNameSpecial8=
+OpenOutput8=0
+PromptOverwrite8=0
+PublishMethod8=1
+ZoomLevel8=50
+FitSCHPrintSizeToDoc8=1
+FitPCBPrintSizeToDoc8=1
+GenerateNetsInfo8=1
+MarkPins8=1
+MarkNetLabels8=1
+MarkPortsId8=1
+GenerateTOC8=1
+ShowComponentParameters8=1
+GlobalBookmarks8=0
+PDFACompliance8=Disabled
+PDFVersion8=Default
+
+[GeneratedFilesSettings]
+RelativeOutputPath2=C:\Users\ATBUser\OneDrive\Work\ATB-MUVV\Documents\Outputs\ATB-MUVV-PCBMAIN-ProjectBoardVariantA1R0\
+OpenOutputs2=0
+RelativeOutputPath3=C:\Users\ATBUser\OneDrive\Work\ATB-MUVV\Documents\Outputs\ATB-MUVV-PCBMAIN-ProjectBoardVariantA1R0\ATB-MUVV-PCBMAIN-ProjectBoardVariantA1R0-drawing.PDF
+OpenOutputs3=0
+RelativeOutputPath4=C:\Users\ATBUser\OneDrive\Work\ATB-MUVV\Documents\Outputs\ATB-MUVV-PCBMAIN-ProjectBoardVariantA1R0\
+OpenOutputs4=0
+AddToProject4=0
+TimestampFolder4=1
+UseOutputName4=0
+OpenODBOutput4=0
+OpenGerberOutput4=0
+OpenNCDrillOutput4=0
+OpenIPCOutput4=0
+EnableReload4=0
+RelativeOutputPath5=C:\Users\ATBUser\OneDrive\Projects\RetroClock\RetroClock-PCBMAIN\Documents\Outputs\PRJ-RETROCLOCK-PCBMAIN-ProjectBoardVariantB1S1\
+OpenOutputs5=0
+AddToProject5=0
+TimestampFolder5=1
+UseOutputName5=0
+OpenODBOutput5=0
+OpenGerberOutput5=0
+OpenNCDrillOutput5=0
+OpenIPCOutput5=0
+EnableReload5=0
+RelativeOutputPath6=C:\Users\ATBUser\OneDrive\Work\ATB-MUVV\Documents\Outputs\ATB-MUVV-PCBMAIN-ProjectBoardVariantA1R0\
+OpenOutputs6=0
+AddToProject6=0
+TimestampFolder6=1
+UseOutputName6=0
+OpenODBOutput6=0
+OpenGerberOutput6=0
+OpenNCDrillOutput6=0
+OpenIPCOutput6=0
+EnableReload6=0
+RelativeOutputPath7=C:\Users\ATBUser\OneDrive\Work\ATB-MUVV\Documents\Outputs\ATB-MUVV-PCBMAIN-ProjectBoardVariantA1R0\
+OpenOutputs7=0
+RelativeOutputPath8=C:\Users\ATBUser\OneDrive\Work\ATB-MUVV\Documents\Outputs\ATB-MUVV-PCBMAIN-ProjectBoardVariantA1R0\Debug.PDF
+OpenOutputs8=0
+
