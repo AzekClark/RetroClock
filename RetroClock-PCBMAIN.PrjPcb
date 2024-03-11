@@ -354,28 +354,28 @@ DocumentPath=Documents\Outputs\Design Rule Check - PCBMAIN.html
 DItemRevisionGUID=
 
 [Parameter1]
-Name=ProjectRevisionCode
-Value=A1S3
+Name=ProjectBoardInterface
+Value=PRJ
 
 [Parameter2]
-Name=ProjectRevision
-Value=1.0
-
-[Parameter3]
-Name=ProjectNumber
-Value=RETROCLOCK
-
-[Parameter4]
-Name=ProjectDocumentDescription
-Value=Основная плата управления часов с ГРИ
-
-[Parameter5]
 Name=ProjectBoardName
 Value=PCBMAIN
 
+[Parameter3]
+Name=ProjectDocumentDescription
+Value=Основная плата управления часов с ГРИ
+
+[Parameter4]
+Name=ProjectNumber
+Value=RETROCLOCK
+
+[Parameter5]
+Name=ProjectRevision
+Value=1.0
+
 [Parameter6]
-Name=ProjectBoardInterface
-Value=PRJ
+Name=ProjectRevisionCode
+Value=A1S3
 
 [Configuration1]
 Name=Sources
@@ -756,11 +756,6 @@ OutputName9=Report Single Pin Nets
 OutputDocumentPath9=
 OutputVariantName9=[No Variations]
 OutputDefault9=0
-OutputType10=BoardAssistant
-OutputName10=BoardAssistant text documents
-OutputDocumentPath10=
-OutputVariantName10=[No Variations]
-OutputDefault10=0
 
 [OutputGroup7]
 Name=Other Outputs
